@@ -28,4 +28,7 @@ $(document).ready(function(){
                 .toggleClass("present", idTime === currentHour) // Add or remove the present class
                 .toggleClass("future", idTime > currentHour); // Add or remove the future class
           })
-      }
+        }
+        // Call the timeTracker function to initially style the time blocks
+        timeTracker();
+});
