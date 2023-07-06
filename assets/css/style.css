@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  /* header styling*/
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid rgb(107, 107, 107);
+  }
+  /* changes font for work day scheduler */
+  .display-3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #536B78;
+    text-decoration-line: underline;
+  }
+/* changes font for sentence under the header and inside the event/text box */
+  .lead, .col-md-10 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+
+/* changes font for the column with the time */
+.col-md-1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    border-radius: 15px;
+    text-align: left;
+  }
+  
+  .row {
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  /* color of past hours */
+  .past {
+    background-color: #B4E7CE;
+    color: white;
+  }
+  
+  /* color of present hour */
+  .present {
+    background-color: #59A96A;
+    color: white;
+  }
+  /* color of future hours */
+  .future {
+    background-color: #5ABCB9;
+    color: white;
+  }
+  /* button stylying */
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #387D7A;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
