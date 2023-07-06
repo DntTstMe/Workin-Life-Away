@@ -20,7 +20,7 @@ A work day planner for your work day needs
 N/A
 
 ## Usage
-* Add description of your event ot the text box and click save. Saved events will repopulate upon screen refresh. Past hours are a sea foam color, the current hour is darker green, and the future hours are a turquoise/teal
+* Add description of your event of the text box and click save. Saved events will repopulate upon screen refresh. Past hours are a sea foam color, the current hour is darker green, and the future hours are a turquoise/teal
 
 
 
